@@ -178,7 +178,7 @@
 export default {
   data() {
     return {
-      sponsors: [{name: 'Boltshift', logo:'/src/assets/Images/SponsorLogos/LogomarkBoltshift.png' }, {name:'FeatherDev', logo: '/src/assets/Images/SponsorLogos/LogomarkFeatherDev.png' },{name:'VAIONEX', logo: '/src/assets/Images/SponsorLogos/LogomarkVaionex.png'}, {name:'GlobalBank', logo: '/src/assets/Images/SponsorLogos/ShapeGlobalBank.png'},{name: 'Nietzsche', logo: '/src/assets/Images/SponsorLogos/LogomarkNietzsche.png'  }],
+      sponsors: [{name: 'Boltshift', logo:'/tournament-website/src/assets/Images/SponsorLogos/LogomarkBoltshift.png' }, {name:'FeatherDev', logo: '/tournament-website/src/assets/Images/SponsorLogos/LogomarkFeatherDev.png' },{name:'VAIONEX', logo: '/tournament-website/src/assets/Images/SponsorLogos/LogomarkVaionex.png'}, {name:'GlobalBank', logo: '/tournament-website/src/assets/Images/SponsorLogos/ShapeGlobalBank.png'},{name: 'Nietzsche', logo: '/tournament-website/src/assets/Images/SponsorLogos/LogomarkNietzsche.png'  }],
       burgerMenuShown: false,
     }
   },

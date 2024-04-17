@@ -42,9 +42,9 @@ export default {
   data() {
     return {
         cardImg: '',
-        cards: [{title: 'Valorant Victory Rush', description: 'Dominate the Arena for a $50K Prize Pool!', img: '/src/assets/Images/65bfe9ad060a66d706890833818a2260.png'}, 
-                {title: 'Call of Duty: Combat Challenge', description: 'Deploy and Conquer for $30K in Cash & Gear!', img: '/src/assets/Images/65bfe9ad060a66d706890833818a22602.png'}, 
-                {title: 'Apex Legends: Champions Quest', description: 'Outlast the Legends to Win $20K + Exclusive Items!', img: 'src/assets/Images/65bfe9ad060a66d706890833818a22603.png'}]
+        cards: [{title: 'Valorant Victory Rush', description: 'Dominate the Arena for a $50K Prize Pool!', img: '/tournament-website/src/assets/Images/65bfe9ad060a66d706890833818a2260.png'}, 
+                {title: 'Call of Duty: Combat Challenge', description: 'Deploy and Conquer for $30K in Cash & Gear!', img: '/tournament-website/src/assets/Images/65bfe9ad060a66d706890833818a22602.png'}, 
+                {title: 'Apex Legends: Champions Quest', description: 'Outlast the Legends to Win $20K + Exclusive Items!', img: '/tournament-website/src/assets/Images/65bfe9ad060a66d706890833818a22603.png'}]
     }
   }, 
   methods: {
