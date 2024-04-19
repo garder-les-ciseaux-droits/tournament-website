@@ -132,10 +132,10 @@
                 </div>
             </div>
         </div>
-        <div class="w-full h-[518px] lg:h-[256px] flex justify-center text-white">
-            <div class="w-full lg:w-[1280px] h-[480px] lg:h-[216px] grid grid-cols-1 justify-center lg:space-x-12 lg:flex space-y-4 lg:space-y-0 min-w-0 mx-4">
-                    <div class="rounded-xl w-full lg:w-[656px] min-w-0 h-full flex justify-center items-center space-y-1 bg-gradient-to-r from-white to-black p-0.5">
-                        <div class="bg-[url('/src/assets/Images/callofduty.png')] rounded-xl bg-no-repeat bg-cover justify-center items-start bg-center  w-full lg:w-[656px] h-[216px] h-full flex flex-col pl-6 pb-4 min-w-0">
+        <div class="w-full h-[518px] md:h-[256px] flex justify-center text-white">
+            <div class="w-full md::w-[1280px] h-[480px] md:h-[216px] grid grid-cols-1 justify-center md:space-x-12 md:flex space-y-4 md:space-y-0 min-w-0 mx-4">
+                    <div class="rounded-xl w-full md:w-[656px] min-w-0 h-full flex justify-center items-center space-y-1 bg-gradient-to-r from-white to-black p-0.5">
+                        <div class="bg-[url('/src/assets/Images/callofduty.png')] rounded-xl bg-no-repeat bg-cover justify-center items-start bg-center  w-full md:w-[656px] h-[216px] h-full flex flex-col pl-6 pb-4 min-w-0">
                             <h1 class="md:text-3xl font-semibold font-clash w-[244px]">Champion's Early Bird Offer</h1>
                             <h2 class="text-xl w-[288.91px]  h-[46px] font-clash font-medium">Get 10% off your entry free with code: GLORY10</h2>
                         </div>

@@ -36,7 +36,7 @@
                     </button>
                     
                 </div>
-                <div class="h-full w-[222.8px] text-white flex justify-center items-center md:space-x-1">
+                <div class="h-full w-[222.8px] text-white justify-center items-center md:space-x-1 hidden md:flex">
                     <button class="flex items-center md:text-base text-xs"  @click="sortedPlayers('topEight')">
                         <p>Top 8 Finishes</p>
                         <img class="w-[12px] h-[12px] md:w-[16px] md:h-[16px]" src="/src/assets/Icons/chevron-selector-vertical.png"/>
@@ -49,10 +49,10 @@
                         <p class="md:text-lg text-xs">{{ index + 1 }}</p>
                     </div>
                     <div class="h-full w-[222.8px] overflow-x-auto md:overflow-x-hidden text-white flex justify-start items-center space-x-3 ml-4">
-                        <div class="rounded-3xl hidden md:inline-block w-[20px] h-[20px] md:w-[40px] md:h-[40px]">
-                            <img :src="player.avatar"/>
+                        <div class="w-[20px] h-[20px] md:w-[40px] md:h-[40px]">
+                            <img class="rounded-3xl  w-full h-full" :src="player.avatar"/>
                         </div>
-                        <p class="md:text-lg text-xs text-balance">{{ player.name }}</p>
+                        <p class="md:text-lg text-xs text-balance truncate">{{ player.name }}</p>
                     </div>
                     <div class="h-full w-[222.8px] text-white flex justify-center items-center">
                         <p class="md:text-lg text-xs">{{ player.winRate + '%' }}</p>
@@ -63,8 +63,8 @@
                     <div class="h-full w-[222.8px] text-white flex justify-center items-center">
                         <p class="md:text-lg text-xs">{{ player.topThree }}</p>
                     </div>
-                    <div class="h-full w-[222.8px] text-white flex justify-center items-center">
-                        <p class="md:text-lg text-xs">{{ player.topEight }}</p>
+                    <div class="h-full w-[222.8px] hidden md:flex text-white justify-center items-center">
+                        <p class="md:text-lg text-xs hidden md:flex">{{ player.topEight }}</p>
                     </div>
                 </div>
             </div>
