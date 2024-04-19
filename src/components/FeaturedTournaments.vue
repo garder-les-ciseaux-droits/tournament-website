@@ -17,7 +17,7 @@
         <div class="w-[1280px] h-[505px] flex justify-center  min-w-0 mx-4">
             <div class="w-full h-full md:flex grid grid-cols-1 justify-center space-y-10 md:space-x-14 md:space-y-0  min-w-0">
                 <div class="relative w-full h-full flex justify-center min-w-0"  v-for="card in cards" :key="card.id">
-                    <div class="w-full md:w-[384px] h-[505px] flex rounded-xl items-end min-w-0" :style="`background-image: url('/tournament-website/src/assets/Images/${card.img}.png'); background-position: center; background-size: cover;`">
+                    <div class="w-full md:w-[384px] h-[505px] flex rounded-xl items-end min-w-0" :style="`background-image: url('https://garder-les-ciseaux-droits.github.io/tournament-website/src/assets/Images/${card.img}.png'); background-position: center; background-size: cover;`">
                         
                         <div class="w-full h-[192px] flex justify-center items-center min-w-0">
                             
@@ -49,7 +49,10 @@ export default {
   }, 
   methods: {
     defineTheBackground(card){
-        return `background-image: url('/src/assets/Images/${card}'); background-position: center; background-size: cover;`;
+        setTimeout(() => {
+            return `background-image: url('/src/assets/Images/${card}'); background-position: center; background-size: cover;`;
+        }, 0);
+        
     }
   },
   mounted() {
