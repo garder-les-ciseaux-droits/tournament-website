@@ -96,11 +96,11 @@
             </div>
             
         </div>
-        <div class="w-full h-[270px] md:h-[518px] flex justify-center text-white mt-4 md:mx-0 mx-6">
-            <div class="w-[1280px] h-full flex min-w-0 ml-4 mr-4 flex">
-                <div class="w-full h-[458px] md:w-[640px] md:h-[458px] flex flex-col justify-start space-y-4">
-                    <div class="w-full min-w-0 min-h-0 md:w-[640px] md:h-[240px] flex flex-col">
-                        <div class="border border-gray-400 bg-[#272727] rounded-2xl flex w-[383px] h-[32px] items-center text-white text-xs">
+        <div class="w-full h-[270px] md:h-[518px] flex justify-center text-white mt-4">
+            <div class="w-full md:w-[1280px] h-full min-w-0 md:ml-4 md:mr-4 flex md:mx-0 mx-10">
+                <div class="w-full h-[458px] md:w-[640px] md:h-[458px] flex flex-col justify-start space-y-2 md:space-y-4">
+                    <div class="w-full min-w-0 min-h-0 md:w-[640px] md:h-[240px] flex flex-col min-w-0 max-w-full">
+                        <div class="border border-gray-400 bg-[#272727] rounded-2xl flex w-full md:w-[383px] h-[32px] space-x-2 md:space-x-0 items-center text-white text-xs">
                             <div class="border border-gray-400 rounded-2xl items-center flex h-[24px]">
                                     <img class="pl-1.5" src="/src/assets/Images/_Dot.png"/>
                                     <p class="mx-1.5 text-xs">Featured Tournament</p>
@@ -109,25 +109,25 @@
                                 <p>Don't miss out!</p>
                             </div>
                         </div>
-                        <div class="w-full h-full md:w-[540px] md:h-[192px] md:flex items-end mt-4">
-                            <h1 class="text-white text-4xl md:text-5xl md:leading-tight text-start md:line-clamp-3 font-semibold font-clash drop-shadow-[0_5px_10px_rgba(255,255,255,0.25)]">
+                        <div class="w-full h-full md:w-[540px] md:h-[192px] md:flex items-end mt-4 min-w-0 min-h-0">
+                            <h1 class="text-white text-2xl md:text-5xl md:leading-tight text-start md:line-clamp-3 font-semibold font-clash drop-shadow-[0_5px_10px_rgba(255,255,255,0.25)]">
                                 Experience the Ultimate in Competetive Gaming!
                             </h1>
                         </div>
                     </div>
-                    <div class="w-[450px] h-[90px] mt-4 flex">
-                            <h2 class="text-white text-lg md:text-xl text-start text-pretty">
+                    <div class="w-[300px] md:w-[450px] h-[90px] mt-4 flex">
+                            <h2 class="text-white text-base md:text-xl text-start text-pretty">
                                 Immerse yourself in adrenaline-pumping battles and compete against the best to claim your victory on Tournaments.com today!
                             </h2>
                     </div>
                     <div class="flex items-center md:items-end w-full md:mt-4 h-[80px]">
-                        <button class="rounded-3xl w-[200px] h-[48px] md:w-[255px] md:h-[48px] flex justify-center items-center text-white bg-gradient-to-r from-[#6600D4] to-[#005FFF] space-x-3">
+                        <button class="rounded-3xl w-[200px] h-[42px] md:w-[255px] md:h-[48px] flex justify-center items-center text-white bg-gradient-to-r from-[#6600D4] to-[#005FFF] space-x-3">
                             <p class="text-xs md:text-sm">Compete for Glory Now!</p>
                             <img src="/src/assets/Images/arrow-narrow-right.png"/>
                         </button>
                     </div>
                 </div> 
-                <div class="flex items-center justify-center md:w-[512px] md:h-[518px]">
+                <div class="hidden md:flex items-center justify-center md:w-[512px] md:h-[518px]">
                     <img class="min-w-[750px] min-h-[400px] mb-14 ml-36 min-w-0 min-w-0" src="/src/assets/background/Image.png">
                 </div>
             </div>

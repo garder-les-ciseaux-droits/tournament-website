@@ -2,10 +2,10 @@
     <div class="w-full h-[96px] flex justify-center">
         <div class="w-[1280px] h-[96px] flex min-w-0 mx-10 md:mx-4">
             <div class="flex flex-col space-y-4 justify-center w-full">
-                <h1 class="text-white font-bold text-3xl">Featured Tournaments</h1>
-                <h2 class="text-white">Join the fray in your favorite game and claim glory!</h2>
+                <h1 class="text-white font-bold text-xl md:text-3xl">Featured Tournaments</h1>
+                <h2 class="text-white text-sm md:text-base">Join the fray in your favorite game and claim glory!</h2>
             </div>
-            <div class="flex w-full justify-end">
+            <div class="hidden md:flex w-full justify-end">
                 <button class="text-white rounded-3xl bg-[#212121] w-[191px] h-[48px] flex justify-center items-center space-x-2">
                     <p>All tournaments</p>
                     <img src="/src/assets/Icons/Iconarrowright.png"/>
@@ -21,7 +21,7 @@
                         
                         <div class="w-full h-[192px] flex justify-center items-center min-w-0">
                             
-                            <div class="bg-gradient-to-b from-transparent to-black w-full md:w-full h-[200px] md:h-full flex flex-col justify-center items-center space-y-2 min-w-0 pb-4 md:pb-0">
+                            <div class="bg-gradient-to-b from-transparent to-black w-full md:w-full h-[200px] md:h-full flex flex-col justify-center items-center space-y-2 min-w-0 pb-4 md:pb-0 px-4 md:px-0">
                                 <div class="md:w-[320px] md:h-[200px] w-[400px] h-full flex flex-col justify-center items-center min-w-0 max-w-full space-y-2">
                                     <h1 class="text-white text-2xl font-bold leading-8 text-balance w-full">{{ card.title }}</h1>
                                     <h1 class="text-white text-xl font-light text-balance leading-7 w-full">{{ card.description }}</h1>

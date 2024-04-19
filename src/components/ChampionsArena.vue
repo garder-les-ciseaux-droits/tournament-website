@@ -1,13 +1,13 @@
 <template>
     <div class="w-full h-[96px] flex justify-center">
         <div class="w-[1280px] h-[96px] min-w-0 mx-10 md:mx-4">
-            <div class="flex flex-col space-y-4 justify-center w-full items-center">
-                <h1 class="text-white font-bold text-3xl md:text-5xl">Champions of the Arena</h1>
-                <h2 class="text-white text-xl font-light">Meet the elite players dominating the game</h2>
+            <div class="flex flex-col space-y-4 justify-center w-full items-start md:items-center">
+                <h1 class="text-white font-bold text-xl md:text-5xl">Champions of the Arena</h1>
+                <h2 class="text-white text-base md:text-xl font-light">Meet the elite players dominating the game</h2>
             </div>
         </div>
     </div>
-    <div class="w-full h-full flex justify-center mt-14">
+    <div class="w-full h-full flex justify-center mt-4 md:mt-14">
         <div class="w-[1280px] h-[964px] min-w-0 mx-10 md:mx-4">
             <div class="w-full h-[44px] border rounded-xl border-gray-600 bg-gradient-to-r from-black/70 to-[#212121]/70 flex">
                 <div class="h-full w-[80px] md:w-[102px] text-white flex justify-center items-center">

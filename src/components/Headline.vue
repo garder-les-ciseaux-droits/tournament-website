@@ -2,10 +2,10 @@
     <div class="w-full h-[96px] flex justify-center mt-24">
         <div class="w-[1280px] h-[96px] flex min-w-0 mx-10 md:mx-4 min-w-0">
             <div class="flex flex-col space-y-4 justify-center w-full">
-                <h1 class="text-white font-bold text-3xl text-2xl">In the headline</h1>
-                <h2 class="text-white">Catch up on the most recent happenings in the world of esports. From tournament results to game updates, stay in the know.</h2>
+                <h1 class="text-white font-bold md:text-3xl text-2xl">In the headline</h1>
+                <h2 class="text-white text-sm md:text-base">Catch up on the most recent happenings in the world of esports. From tournament results to game updates, stay in the know.</h2>
             </div>
-            <div class="flex w-full justify-end">
+            <div class="hidden md:flex w-full justify-end">
                 <button class="text-white rounded-3xl bg-[#212121] w-[191px] h-[48px] flex justify-center items-center space-x-2">
                     <p>All tournaments</p>
                     <img src="/src/assets/Icons/Iconarrowright.png"/>
@@ -45,21 +45,21 @@
         <div class="bg-gradient-to-r from-white to-black w-[1280px] h-[362px] flex justify-center items-center rounded-3xl min-w-0 mx-10 md:mx-4">
             <div class="w-[1282px] mx-0.5 h-[360px] flex justify-center md:justify-start items-center rounded-3xl min-w-0 bg-[url('/src/assets/Images/gaming-white-woman-and-black-man-smiling-happy-earns-money--wearing-headphone--hand-show--anime-style-neon--epic1.png')] bg-cover bg-center">
                 <div class="w-[620px] h-[234px] md:ml-16 flex flex-col justify-center items-center max-w-full min-w-0">
-                    <div class="w-[340px] text-center md:text-start md:w-full h-[154px] flex flex-col justify-center max-w-full">
-                        <h1 class="text-white text-xl md:text-3xl font-semibold  font-clash w-full h-[44px]">Start Your Journey to Glory</h1>
-                        <h2 class="text-white text-lg md:text-xl font-light h-[90px] w-full">Whether you're here to make your mark as a legendary organizer or to  rise through the ranks as a champion competitor, your path begins with a  single click.</h2>
+                    <div class="w-[250px] text-center md:text-start md:w-full h-[154px] flex flex-col justify-center max-w-full">
+                        <h1 class="text-white text-base md:text-3xl font-semibold  font-clash w-full h-[44px]">Start Your Journey to Glory</h1>
+                        <h2 class="text-white text-sm md:text-xl font-light h-[90px] w-full">Whether you're here to make your mark as a legendary organizer or to  rise through the ranks as a champion competitor, your path begins with a  single click.</h2>
                     </div>
                     <div class="w-full h-[80px] text-white flex justify-center md:justify-start items-end min-w-0 space-x-4">
-                        <div class="w-[170px] md:w-[224px] h-[48px] flex justify-center items-center">
+                        <div class="w-[130px] md:w-[224px] h-[48px] flex justify-center items-center">
                             <button class="rounded-3xl h-full w-full bg-gradient-to-r from-[#6600D4] to-[#005FFF] flex justify-center items-center space-x-3">
-                                <p class="text-sm md:text-base">Create tournaments</p>
-                                <img src="/src/assets/Icons/Iconarrowright.png"/>
+                                <p class="text-xs md:text-base">Create tournaments</p>
+                                <img class="hidden md:flex" src="/src/assets/Icons/Iconarrowright.png"/>
                             </button>
                         </div>
-                        <div class="w-[170px] md:w-[224px] h-[48px] flex justify-center items-center min-w-0">  
+                        <div class="w-[130px] md:w-[224px] h-[48px] flex justify-center items-center min-w-0">  
                             <button class="border rounded-3xl h-full w-full flex justify-center items-center bg-white text-black space-x-1">
-                                <p class="text-sm md:text-base">Join a competition</p>
-                                <img src="/src/assets/Icons/chevron-right.png"/>
+                                <p class="text-xs md:text-base">Join a competition</p>
+                                <img class="hidden md:flex" src="/src/assets/Icons/chevron-right.png"/>
                             </button>
                         </div>  
                     </div>

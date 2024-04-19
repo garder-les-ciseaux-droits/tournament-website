@@ -4,10 +4,10 @@
     <div class="w-full h-[980px]">
       <HomePage/>
     </div>
-    <div class="w-full max-w-full md:h-[1773px] h-[2800px] mt-[310px] md:mt-[300px] bg-[url('/src/assets/background/background1.png')] bg-no-repeat bg-cover bg-start"  style="background-position: -70px -200px;">
+    <div class="w-full max-w-full md:h-[1773px] h-[2300px] mt-[310px] md:mt-[300px] bg-[url('/src/assets/background/background1.png')] bg-no-repeat bg-cover bg-start"  style="background-position: -70px -200px;">
       <HomeBenefits/>
     </div>
-    <div class="w-full h-[1800px] md:h-[747px]">
+    <div class="w-full h-[1800px] md:h-[747px] mt-[190px] md:mt-0">
       <FeaturedTournaments/>
     </div>
     <div class="w-full h-[1226px] bg-[url('/src/assets/background/mountain-background-epic-anime--dark-and-perfect-for-gaming--the-feel-is-epic-and-war1.png')] bg-cover bg-center mt-12">
