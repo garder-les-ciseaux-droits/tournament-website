@@ -17,7 +17,7 @@
         <div class="w-[1280px] h-[505px] flex justify-center  min-w-0 mx-4">
             <div class="w-full h-full md:flex grid grid-cols-1 justify-center space-y-10 md:space-x-14 md:space-y-0  min-w-0">
                 <div class="relative w-full h-full flex justify-center min-w-0"  v-for="card in cards" :key="card.id">
-                    <div class="w-full md:w-[384px] h-[505px] flex rounded-xl items-end min-w-0" :style="`background-image: url('https://garder-les-ciseaux-droits.github.io/tournament-website/src/assets/Images/${card.img}.png'); background-position: center; background-size: cover;`">
+                    <div class="w-full md:w-[384px] h-[505px] flex rounded-xl items-end min-w-0" :style="`background-image: url('${card.img}'); background-position: center; background-size: cover;`">
                         
                         <div class="w-full h-[192px] flex justify-center items-center min-w-0">
                             
@@ -38,13 +38,17 @@
 </template>
 
 <script>
+import first from '/src/assets/Images/65bfe9ad060a66d706890833818a2260.png'
+import second from '/src/assets/Images/65bfe9ad060a66d706890833818a22602.png'
+import third from '/src/assets/Images/65bfe9ad060a66d706890833818a22603.png'
 export default {
   data() {
     return {
+
         cardImg: '',
-        cards: [{title: 'Valorant Victory Rush', description: 'Dominate the Arena for a $50K Prize Pool!', img: '65bfe9ad060a66d706890833818a2260'}, 
-                {title: 'Call of Duty: Combat Challenge', description: 'Deploy and Conquer for $30K in Cash & Gear!', img: '65bfe9ad060a66d706890833818a22602'}, 
-                {title: 'Apex Legends: Champions Quest', description: 'Outlast the Legends to Win $20K + Exclusive Items!', img: '65bfe9ad060a66d706890833818a22603'}]
+        cards: [{title: 'Valorant Victory Rush', description: 'Dominate the Arena for a $50K Prize Pool!', img: first}, 
+                {title: 'Call of Duty: Combat Challenge', description: 'Deploy and Conquer for $30K in Cash & Gear!', img: second}, 
+                {title: 'Apex Legends: Champions Quest', description: 'Outlast the Legends to Win $20K + Exclusive Items!', img: third}]
     }
   }, 
   methods: {
