@@ -3,6 +3,7 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "http://garder-les-ciseaux-droits.github.io/tournament-website",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
