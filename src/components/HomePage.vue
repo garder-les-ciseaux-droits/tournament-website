@@ -158,7 +158,7 @@
                 <div class="grid grid-cols-2 md:grid md:grid-cols-3 lg:flex w-full h-full">
                     <div class="w-full lg:w-[1280px] lg:h-[100px] flex min-w-0 justify-center items-center" v-for="sponsor in sponsors" :key="sponsor.id">
                         <div class="justify-center flex items-center w-[170px] h-[48px] space-x-2 min-w-0">
-                            <img class="w-6 h-6 lg:w-10 lg:h-10 min-w-0" :src="`./src/assets/Images/SponsorLogos/${sponsor.name}.png`"/>
+                            <img class="w-6 h-6 lg:w-10 lg:h-10 min-w-0" :src="`@/src/assets/Images/SponsorLogos/${sponsor.name}.png`"/>
                             <p class="text-white font-bold min-w-0">{{ sponsor.name }}</p>      
                         </div>       
                     </div>
