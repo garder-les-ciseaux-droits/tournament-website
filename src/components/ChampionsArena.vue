@@ -75,10 +75,20 @@
 
 
 <script>
+import Avatar from '/src/assets/Images/PlayersIcons/Avatar.png'
+import Avatar8 from '/src/assets/Images/PlayersIcons/Avatar8.png'
+import Avatar2 from '/src/assets/Images/PlayersIcons/Avatar2.png'
+import Avatar3 from '/src/assets/Images/PlayersIcons/Avatar3.png'
+import Avatar7 from '/src/assets/Images/PlayersIcons/Avatar7.png'
+import Avatar4 from '/src/assets/Images/PlayersIcons/Avatar4.png'
+import Avatar5 from '/src/assets/Images/PlayersIcons/Avatar5.png'
+import Avatar6 from '/src/assets/Images/PlayersIcons/Avatar6.png'
+
+
 export default {
   data() {
     return {
-        topTenPlayers: [{name: 'Phantom Blade', winRate: 89, tournamentWins: 11, topThree: 7, topEight: 0, avatar: './src/assets/Images/PlayersIcons/Avatar.png'}, {name: 'RavenYeager', winRate: 88, tournamentWins: 2, topThree: 5, topEight: 4, avatar: './src/assets/Images/PlayersIcons/Avatar8.png'}, {name: 'PawsMaster', winRate: 87, tournamentWins: 7, topThree: 4, topEight: 1, avatar: './src/assets/Images/PlayersIcons/Avatar2.png'}, {name: 'FingerWarrior', winRate: 83, tournamentWins: 9, topThree: 9, topEight: 6, avatar: './src/assets/Images/PlayersIcons/Avatar3.png'}, {name: 'IronHead', winRate: 80, tournamentWins: 1, topThree: 2, topEight: 8, avatar: './src/assets/Images/PlayersIcons/Avatar7.png'}, {name: 'QuantumKaizen', winRate: 80, tournamentWins: 1, topThree: 8, topEight: 8, avatar: './src/assets/Images/PlayersIcons/Avatar4.png'}, {name: 'EchoPulse', winRate: 75, tournamentWins: 0, topThree: 3, topEight: 0, avatar: './src/assets/Images/PlayersIcons/Avatar5.png'}, {name: 'Blitz', winRate: 72, tournamentWins: 1, topThree: 5, topEight: 9, avatar: './src/assets/Images/PlayersIcons/Avatar6.png'}, {name: 'SilverEdge', winRate: 71, tournamentWins: 3, topThree: 6, topEight: 12, avatar: './src/assets/Images/PlayersIcons/Avatar5.png'}, {name: 'Notyourbae', winRate: 70, tournamentWins: 5, topThree: 1, topEight: 6, avatar: './src/assets/Images/PlayersIcons/Avatar5.png'}],
+        topTenPlayers: [{name: 'Phantom Blade', winRate: 89, tournamentWins: 11, topThree: 7, topEight: 0, avatar: Avatar}, {name: 'RavenYeager', winRate: 88, tournamentWins: 2, topThree: 5, topEight: 4, avatar: Avatar8}, {name: 'PawsMaster', winRate: 87, tournamentWins: 7, topThree: 4, topEight: 1, avatar: Avatar2}, {name: 'FingerWarrior', winRate: 83, tournamentWins: 9, topThree: 9, topEight: 6, avatar: Avatar3}, {name: 'IronHead', winRate: 80, tournamentWins: 1, topThree: 2, topEight: 8, avatar: Avatar7}, {name: 'QuantumKaizen', winRate: 80, tournamentWins: 1, topThree: 8, topEight: 8, avatar: Avatar4}, {name: 'EchoPulse', winRate: 75, tournamentWins: 0, topThree: 3, topEight: 0, avatar: Avatar5}, {name: 'Blitz', winRate: 72, tournamentWins: 1, topThree: 5, topEight: 9, avatar: Avatar6}, {name: 'SilverEdge', winRate: 71, tournamentWins: 3, topThree: 6, topEight: 12, avatar: Avatar5}, {name: 'Notyourbae', winRate: 70, tournamentWins: 5, topThree: 1, topEight: 6, avatar: Avatar5}],
     }
   },
   methods: {
