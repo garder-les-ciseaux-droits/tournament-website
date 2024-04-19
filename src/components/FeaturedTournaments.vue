@@ -1,6 +1,6 @@
 <template>
     <div class="w-full h-[96px] flex justify-center">
-        <div class="w-[1280px] h-[96px] flex min-w-0 mx-4">
+        <div class="w-[1280px] h-[96px] flex min-w-0 mx-10 md:mx-4">
             <div class="flex flex-col space-y-4 justify-center w-full">
                 <h1 class="text-white font-bold text-3xl">Featured Tournaments</h1>
                 <h2 class="text-white">Join the fray in your favorite game and claim glory!</h2>
@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class="w-full h-[505px] flex justify-center items-center mt-10">
-        <div class="w-[1280px] h-[505px] flex justify-center  min-w-0 mx-4">
+        <div class="w-[1280px] h-[505px] flex justify-center  min-w-0 mx-10 md:mx-4">
             <div class="w-full h-full md:flex grid grid-cols-1 justify-center space-y-10 md:space-x-14 md:space-y-0  min-w-0">
                 <div class="relative w-full h-full flex justify-center min-w-0"  v-for="card in cards" :key="card.id">
                     <div class="w-full md:w-[384px] h-[505px] flex rounded-xl items-end min-w-0" :style="`background-image: url('${card.img}'); background-position: center; background-size: cover;`">

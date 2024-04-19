@@ -64,8 +64,8 @@
         </div>
     </div>          
     <div class="w-full h-full bg-[url('/src/assets/background/background.png')] bg-no-repeat bg-contain md:bg-cover bg-center" style="background-position: -70px -70px;">
-        <div class="h-[136px] w-full flex justify-center items-center  min-w-0">
-            <div class="w-[1280px] h-[72px] flex justify-center min-w-0 mx-4">
+        <div class="h-[136px] w-full flex justify-center items-center min-w-0">
+            <div class="w-[1280px] h-[72px] flex justify-center min-w-0 md:mx-4 mx-10">
                 <div class="w-full flex items-center justify-start text-white font-bold text-xl min-w-0">
                     <img class="w-48" src='/src/assets/Images/LOGO.png'/>
                 </div>
@@ -96,12 +96,12 @@
             </div>
             
         </div>
-        <div class="w-full h-[370px] md:h-[518px] flex justify-center text-white mt-4">
+        <div class="w-full h-[270px] md:h-[518px] flex justify-center text-white mt-4 md:mx-0 mx-6">
             <div class="w-[1280px] h-full flex min-w-0 ml-4 mr-4 flex">
                 <div class="w-full h-[458px] md:w-[640px] md:h-[458px] flex flex-col justify-start space-y-4">
                     <div class="w-full min-w-0 min-h-0 md:w-[640px] md:h-[240px] flex flex-col">
                         <div class="border border-gray-400 bg-[#272727] rounded-2xl flex w-[383px] h-[32px] items-center text-white text-xs">
-                            <div class="border border-gray-400 rounded-2xl items-center flex h-[24px] mx-2">
+                            <div class="border border-gray-400 rounded-2xl items-center flex h-[24px]">
                                     <img class="pl-1.5" src="/src/assets/Images/_Dot.png"/>
                                     <p class="mx-1.5 text-xs">Featured Tournament</p>
                             </div>
@@ -132,8 +132,8 @@
                 </div>
             </div>
         </div>
-        <div class="w-full h-[518px] md:h-[256px] flex justify-center text-white">
-            <div class="w-full md::w-[1280px] h-[480px] md:h-[216px] grid grid-cols-1 justify-center md:space-x-12 md:flex space-y-4 md:space-y-0 min-w-0 mx-4">
+        <div class="w-full h-[618px] md:h-[256px] flex justify-center items-center md:items-start text-white">
+            <div class="w-full md:w-[1280px] h-[480px] md:h-[216px] grid grid-cols-1 justify-center md:space-x-12 md:flex space-y-4 md:space-y-0 min-w-0 mx-10 md:mx-4">
                     <div class="rounded-xl w-full md:w-[656px] min-w-0 h-full flex justify-center items-center space-y-1 bg-gradient-to-r from-white to-black p-0.5">
                         <div class="bg-[url('/src/assets/Images/callofduty.png')] rounded-xl bg-no-repeat bg-cover justify-center items-start bg-center  w-full md:w-[656px] h-[216px] h-full flex flex-col pl-6 pb-4 min-w-0">
                             <h1 class="md:text-3xl font-semibold font-clash w-[244px]">Champion's Early Bird Offer</h1>
@@ -149,22 +149,22 @@
             </div>
         </div>
 
-        <div class="w-full h-[250px] lg:h-[300px] flex flex-col lg:mt-14 lg:justify-center lg:items-center">
+        <div class="w-full h-[250px] md:h-[300px] flex flex-col md:mt-14 md:justify-center md:items-center">
                 <div class="flex w-full h-full justify-center items-center">
-                    <div class="flex w-full lg:w-[1280px] min-w-0 lg:h-[100px] justify-center">
+                    <div class="flex w-full md:w-[1280px] min-w-0 md:h-[100px] justify-center">
                         <p class="text-white text-1.5xs md:text-lg font-semibold md:mt-3">SUPPORTED BY</p>
                     </div>
                 </div>
-                <div class="grid grid-cols-2 md:grid md:grid-cols-3 lg:flex w-full h-full">
-                    <div class="w-full lg:w-[1280px] lg:h-[100px] flex min-w-0 justify-center items-center" v-for="sponsor in sponsors" :key="sponsor.id">
+                <div class="grid grid-cols-2 md:flex w-full h-full">
+                    <div class="w-full md:w-[1280px] md:h-[100px] flex min-w-0 justify-center items-center" v-for="sponsor in sponsors" :key="sponsor.id">
                         <div class="justify-center flex items-center w-[170px] h-[48px] space-x-2 min-w-0">
-                            <img class="w-6 h-6 lg:w-10 lg:h-10 min-w-0" :src="`${sponsor.img}`"/>
+                            <img class="w-6 h-6 md:w-10 md:h-10 min-w-0" :src="`${sponsor.img}`"/>
                             <p class="text-white font-bold min-w-0">{{ sponsor.name }}</p>      
                         </div>       
                     </div>
                 </div>
                 <div class="w-full h-full flex justify-center items-end">
-                    <div class="w-full lg:w-[1280px] mb-2 md:mb-0 h-[0px] flex justify-center items-center ml-4 mr-4">
+                    <div class="w-full md:w-[1280px] mb-2 md:mb-0 h-[0px] flex justify-center items-center ml-4 mr-4">
                         <img src="/src/assets/Icons/Divider.png"/>
                     </div>
                 </div>

@@ -1,10 +1,10 @@
 <template>
   <div class="w-screen h-screen bg-black overflow-y-auto overflow-x-hidden">
 
-    <div class="w-full h-[1150px] md:h-[980px]">
+    <div class="w-full h-[980px]">
       <HomePage/>
     </div>
-    <div class="w-full max-w-full md:h-[1773px] h-[2800px] mt-[150px] md:mt-[470px] lg:mt-[320px] bg-[url('/src/assets/background/background1.png')] bg-no-repeat bg-cover bg-start"  style="background-position: -70px -200px;">
+    <div class="w-full max-w-full md:h-[1773px] h-[2800px] mt-[310px] md:mt-[300px] bg-[url('/src/assets/background/background1.png')] bg-no-repeat bg-cover bg-start"  style="background-position: -70px -200px;">
       <HomeBenefits/>
     </div>
     <div class="w-full h-[1800px] md:h-[747px]">

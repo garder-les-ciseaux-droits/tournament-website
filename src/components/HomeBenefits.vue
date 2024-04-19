@@ -1,10 +1,10 @@
 <template>
     <div class="bg-[url('/src/assets/background/Clippathgroup.png')] bg-no-repeat bg-cover bg-start">
         <div class="w-full h-[136px] items-end flex justify-center">
-            <div class="w-[1280px] h-[96px] flex min-w-0 mx-4">
+            <div class="w-[1280px] h-[96px] flex min-w-0 md:mx-4 mx-10">
                 <div class="flex flex-col space-y-4 justify-center w-full">
-                    <h1 class="text-white font-bold text-3xl text-2xl">Power your play!</h1>
-                    <h2 class="text-white">Discover cutting-edge features designed for gamers, organizers, and partners</h2>
+                    <h1 class="text-white font-bold md:text-3xl text-2xl">Power your play!</h1>
+                    <h2 class="text-white md:text-base text-sm">Discover cutting-edge features designed for gamers, organizers, and partners</h2>
                 </div>
                 <div class="flex w-full justify-end">
                     <button class="text-white border-gray-400 rounded-3xl bg-[#212121] w-[158px] h-[48px] flex justify-center items-center space-x-4">
@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="w-full [1491px] flex justify-center">
-            <div class="w-[1280px] h-full flex mt-[48px] min-w-0 mx-4">
+            <div class="w-[1280px] h-full flex mt-[48px] min-w-0 md:mx-4 mx-10">
                 <div class="w-full h-full flex flex-col space-y-[32px]">
                     <div class="w-full h-[420px] border rounded-3xl flex">
                         <div class="w-[700px] flex flex-col justify-start mt-10 ml-8 space-y-6">
@@ -46,7 +46,7 @@
         </div>
     </div>
     <div class="w-full h-[1039px] flex justify-center mt-12">
-        <div class="w-[1280px] h-full md:flex grid grid-cols-1 md:space-x-24 space-y-8 min-w-0 mx-4">
+        <div class="w-[1280px] h-full md:flex grid grid-cols-1 md:space-x-24 space-y-8 min-w-0 mx-10 md:mx-4">
             <div class="w-full md:w-[592px] h-full flex flex-col space-y-8 min-w-0">
                 <div class="border rounded-3xl w-full md:h-[544px] h-[400px] flex flex-col bg-w">
                     <div class="w-full md:h-[334px] h-[200px] flex items-center">
